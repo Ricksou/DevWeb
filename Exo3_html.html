@@ -1,0 +1,76 @@
+<html style="display: flex ; flex-direction: column; justify-content: center; background-color: rgb(223, 221, 221);">
+    <form widht="500" method="post" action="traitement.php">
+        <div style="display: flex; flex-direction: row;">
+            <div id="Labelchamp" style="display: flex; flex-direction: column;width: 150px;">
+                <label>Votre pseudo : </label>
+                <label>Votre mot de passe : </label>
+                <p><label >Resaisir votre mot de passe : </label></p>
+            </div>
+            <div id="inputchamp" style="display: flex; flex-direction: column;">
+                <input type="text" name="pseudo" />
+                <input type="text" name="mdp" />
+                <p><input type="text" name="mdpbis" /></p>
+            </div>
+        </div>
+
+
+
+        <br>
+        <div style="display: flex; flex-direction: row;">
+            <div id="Labelchamp" style="display: flex; flex-direction: column;width: 100px;">
+                <label>OS préféré : </label>
+                
+            </div>
+            <div id="inputchamp" style="display: flex; flex-direction: column;">
+                <div><input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Windows XP</label></div>
+                <div><input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">Windows Vista</label></div>
+                <div><input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">Mac OS X</label></div>
+                <div><input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Linux</label></div>
+                <div><input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">autre</label></div>
+            </div>
+        </div>
+
+        <br>
+        <div style="display: flex; flex-direction: row;">
+            <div id="Labelchamp" style="display: flex; flex-direction: column;width: 100px;">
+                <label>Vous possédez :</label>
+                
+            </div>
+            <div id="inputchamp" style="display: flex; flex-direction: column;">
+                <div><input type="checkbox" name="frites" id="frites" /> <label for="frites">Un ordinateur de bureau</label></div>
+                <div><input type="checkbox" name="steak" id="steak" /> <label for="steak">Un portable</label></div>
+                <div><input type="checkbox" name="epinards" id="epinards" /> <label for="epinards">Un netbook</label></div>
+                <div><input type="checkbox" name="huitres" id="huitres" /> <label for="huitres">Une tablette (Pad)</label></div>
+            </div>
+        </div>
+               
+        <br>
+        <div style="display: flex; flex-direction: row;">
+            <div id="Labelchamp" style="display: flex; flex-direction: column;width: 100px;">
+                <label>Veuillez choisir un ou plusieurs animaux : </label>
+                
+            </div>
+            <div id="inputchamp" style="display: flex; flex-direction: column;">
+                <select name="pets" multiple size="5">              
+                    <option value="Chômeur">Chômeur</option>
+                    <option value="Etudiant">Etudiant</option>
+                    <option value="Fonctionnaire">Fonctionnaire</option>    
+                    <option value="Privé">Privé</option>
+                    <option value="Retraité">Retraité</option>        
+                </select>
+            </div>
+        </div>
+        <br>
+        <div style="display: flex; flex-direction: row;">
+            <div id="Labelchamp" style="display: flex; flex-direction: column;width: 100px;">
+                
+                
+            </div>
+            <div id="inputchamp" style="display: flex; flex-direction: column;">
+                <input type="submit" value="S'inscrire !" />
+            </div>
+        </div>
+        
+    </form>
+</html>
+
